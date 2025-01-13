@@ -1536,5 +1536,3 @@ async def confirmation_handler(client, callback_query):
     elif action == "no":
         await callback_query.message.delete()
     await callback_query.answer()
-
-
